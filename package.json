@@ -8,7 +8,11 @@
     "build": "node build.js"
   },
   "nodemonConfig": {
-    "ignore": ["index.html", "node_modules","offers/exemple.md"],
+    "ignore": [
+      "index.html",
+      "node_modules",
+      "offers/exemple.md"
+    ],
     "ext": "js,pug,md"
   },
   "author": "",
