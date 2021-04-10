@@ -1,0 +1,170 @@
+doctype html(lang='en')
+head
+    meta(charset='utf-8')
+    title La guêpe qui dit niet !
+    meta(name='description', content='Liste des drives fermiers sans commission')
+    meta(name='author', content='Renan LE CARO')
+    link(rel="icon" type="image/png" href="/logo-16.png")
+    meta(name="viewport" content="width=device-width")
+    style.
+      body {
+         font-family: sans-serif;
+          overflow-x: hidden;
+          padding: 0;
+          margin: 0;
+      }
+      body>*, footer>.inner{
+          max-width: 1200px;
+          margin: 0 auto 40px auto;
+      }
+
+      .gh-link {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 20px 60px;
+          background: #feb000;
+          color: white;
+          transform: scale(0.8) rotate(45deg) translate(107px, -50px);
+      }
+      @media screen and (max-width: 800px) {
+          .gh-link {
+              display: none;
+          }
+      }
+      *{
+          box-sizing: border-box;
+      }
+      nav{
+          margin-bottom: 50px;
+          padding: 20px;
+      }
+      a{
+          color: #feb000;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      a:hover{
+          text-decoration: underline;
+      }
+      .table-wrap{
+          overflow: auto;
+      }
+      .table-wrap>table{
+          min-width: 100%;
+      }
+      table{
+          border: none;
+          border-collapse: collapse;
+      }
+      th {
+        text-transform: uppercase;
+          font-weight: normal;
+        text-align: left;
+        overflow: hidden;
+          position: sticky;
+          left: 0;
+          z-index: 1;
+      }
+
+      td, th {
+        padding: 10px 20px;
+        line-height: 20px;
+          vertical-align: top;
+      }
+      tr>*{
+          background: white;
+      }
+      tr:nth-child(2n ) > *{
+          background:#f7f7f7;
+      }
+
+      @media (min-width: 900px){
+
+          .offer{
+              display: grid;
+              grid-template-areas: "name name " "table description "  ;
+              grid-template-columns: 370px 1fr;
+              align-items: start;
+          }
+
+      }
+
+      .offer > h2 {
+          grid-area: name;
+
+          padding: 0 20px;
+      }
+
+      .offer > table {
+          grid-area: table
+
+      }
+
+      .offer > .description {
+          grid-area: description;
+          padding: 0 20px 0 20px;
+      }
+      p{
+          margin: 0;
+          padding: 0 0 20px 0;
+      }
+      footer {
+          background: #333;
+          color: white;
+          max-width: none;
+          margin: 0;
+      }
+        footer>.inner{
+            margin-bottom: 0;
+            padding: 40px;
+            display: grid;
+            gap:40px;
+        }
+        @media screen and (min-width: 900px) {
+            footer > .inner {
+                grid-template-columns: 1fr 1fr 1fr ;
+            }
+        }
+
+body
+    nav
+        img(src="./logo.png" width="302" height="69" alt="La guêpe qui dit niet : drives fermiers sans commission ")
+    .table-wrap
+        table
+            tbody
+                tr
+                    th
+                    each offer in self.offers
+                          td
+                              a(href=offer.url)=offer.title
+
+            each column in self.columns
+              tr
+                  th=column.label
+                  each offer in self.offers
+                      td=offer.fields[column.field]
+
+    each offer in self.offers
+        .offer
+            h2: a(href=offer.url target="_blank")=offer.title
+            table.offer-details
+                each column in self.columns
+                    if offer.fields[column.field]
+                        tr
+                            th=column.label
+                            td=offer.fields[column.field]
+            .description!=offer.freeText
+
+    footer: .inner
+      p Le but de ce site est de mettre en lumière les différents outils disponibles pour créer un drive fermier indépendant.
+      p Ce site est édité par
+        a(href="https://lecaro.me")  Renan LE CARO
+        | , fondateur du logiciel
+        a(href="https://ciboulette.net")  ciboulette.net
+      p Les différents logiciels sont triés par ordre alphabétique. Vous pouvez corriger les données en faisant une pull request sur
+          a(href="https://github.com/renanlecaro/laguepequiditniet" target="_blank")  github
+
+    a(href="https://github.com/renanlecaro/laguepequiditniet" target="_blank").gh-link Participez sur github
+    script(async defer data-domain="laguepequiditniet.fr" src="https://stats.laguepequiditniet.fr/js/index.js")
+

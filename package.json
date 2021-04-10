@@ -1,0 +1,21 @@
+{
+  "name": "guepequiditniet",
+  "version": "1.0.0",
+  "description": "Comparaison des systèmes de drive fermier sans commission.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon build.js",
+    "build": "node build.js"
+  },
+  "nodemonConfig": {
+    "ignore": ["index.html", "node_modules","offers/exemple.md"],
+    "ext": "js,pug,md"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown": "^0.5.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}
