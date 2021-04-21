@@ -8,16 +8,16 @@ Prix : 30-60 € / mois
 
 Boutique en ligne: oui
 
-Paiement en ligne:
+Paiement en ligne: oui
 
 Newsletter par email: oui
 
-Newsletter par SMS:
+Newsletter par SMS: non
  
 
-Disponible en Belgique:
+Disponible en Belgique: non
 
-SMS de rappel de RDV:
+SMS de rappel de RDV: non
 
 Essai gratuit: 30 jours
 
@@ -25,16 +25,11 @@ Existe depuis: 2007
 
 ## Description
 
+Socleo, partenaire logiciel des circuits courts, équipe les producteurs, collectifs, distributeurs et transformateurs. Notre logiciel vous permet de commercialiser vos produits aux particuliers et aux professionnels grâce à une boutique en ligne.
 
-Commercialisez vos produits aux particuliers via votre boutique en ligne.
+Gagnez du temps avec nos modules de gestion administrative, commerciale et logistique.
 
-Proposez aux clients une boutique en ligne
+Découvrez nos nombreuses fonctionnalités : catalogue produit, lieux et créneaux de livraison, centralisation des commandes, édition des bons de livraison et de préparation, suivi de la facturation et des versements, exports en comptabilité etc.
 
-Planifiez et centralisez vos commandes
-
-Gérez différents lieux et créneaux de livraison
-
-Editez les factures et suivez les règlements
-
-Analysez vos ventes avec des outils statistiques
+Nous vous formons sur l'utilisation du logiciel et restons disponibles avec un service d'assistance par mail ou téléphone.
 
