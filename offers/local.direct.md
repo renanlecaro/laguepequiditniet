@@ -9,7 +9,7 @@ Paiement en ligne: 1.4% + 0.25€
 
 Newsletter par email: oui
 
-Newsletter par SMS: oui 
+Newsletter par SMS: non 
 
 Disponible en Belgique:
 
