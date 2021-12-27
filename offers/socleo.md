@@ -6,14 +6,12 @@ https://www.socleo.fr/offres/producteur/
 
 Prix : 30-60 € / mois
 
-Boutique en ligne: oui
 
 Paiement en ligne: oui
 
 Newsletter par email: oui
 
 Newsletter par SMS: non
- 
 
 Disponible en Belgique: non
 

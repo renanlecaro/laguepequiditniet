@@ -3,8 +3,6 @@
 [https://adresse-du-logiciel.fr]
  
 ## Fiche produit
-boutique en ligne : [valeur]
-
 paiement en ligne : [valeur]
 
 newsletter par email : [valeur]
@@ -20,6 +18,8 @@ essai gratuit : [valeur]
 existe depuis : [valeur]
 
 prix : [valeur]
+
+boutique en ligne : [valeur]
 
 
 ## Description

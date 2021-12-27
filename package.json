@@ -1,7 +1,7 @@
 {
   "name": "guepequiditniet",
   "version": "1.0.0",
-  "description": "Comparaison des systèmes de drive fermier sans commission.",
+  "description": "Comparatif des logiciels et système de drive fermier.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon build.js",

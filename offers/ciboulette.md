@@ -5,14 +5,12 @@ https://ciboulette.net
 
 
 
-Boutique en ligne:  non
 
-Paiement en ligne:  non
+Paiement en ligne:  2.5 %
 
 Newsletter par email: oui
 
 Newsletter par SMS: oui
- 
 
 Disponible en Belgique: oui
 

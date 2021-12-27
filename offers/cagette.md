@@ -3,9 +3,8 @@ https://www.cagette.net
 
 ## Fiche produit
   
-Boutique en ligne: oui
 
-Paiement en ligne: 3,6%
+Paiement en ligne: 3,6 %
 
 Newsletter par email: oui
 
@@ -15,11 +14,11 @@ Disponible en Belgique:
 
 SMS de rappel de RDV:
 
-Essai gratuit: 
+Essai gratuit: moins 
 
 Existe depuis: 2013
 
-Prix : Gratuit
+Prix : 29 € ht /mois
 
 ## Description
 
