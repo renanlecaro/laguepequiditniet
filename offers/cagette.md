@@ -14,7 +14,7 @@ Disponible en Belgique:
 
 SMS de rappel de RDV:
 
-Essai gratuit: moins 
+Essai gratuit: 30 jours 
 
 Existe depuis: 2013
 
