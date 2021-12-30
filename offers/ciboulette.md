@@ -18,7 +18,7 @@ Essai gratuit: 30 jours
 
 Existe depuis: 2015
 
-Prix : 1 à 10 € par semaine
+Prix : 4.40 à 44.00 € / mois
 
 ## Description
 
