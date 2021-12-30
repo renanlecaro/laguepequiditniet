@@ -1,4 +1,4 @@
-# socleo 
+# socleo .fr
 https://www.socleo.fr/offres/producteur/
 
 ## Fiche produit
@@ -11,11 +11,11 @@ Paiement en ligne: oui
 
 Newsletter par email: oui
 
-Newsletter par SMS: non
+Newsletter par SMS:
 
-Disponible en Belgique: non
+Disponible en Belgique:
 
-SMS de rappel de RDV: non
+SMS de rappel de RDV:
 
 Essai gratuit: 30 jours
 

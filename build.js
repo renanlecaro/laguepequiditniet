@@ -3,7 +3,6 @@ const {markdown}= require('markdown')
 const pug = require('pug');
 
 const offers=fs.readdirSync('offers')
-    .filter(filename=>filename!='exemple.md')
     .map(filename=>({filename,text:fs.readFileSync('offers/'+filename).toString()}))
   .map(({filename,text})=>{
     const lines=text.split('\n')
@@ -41,19 +40,6 @@ const index=pug.renderFile('index.pug', {
   columns, offers, test:[1,2,3]
 })
 
-fs.writeFileSync('offers/exemple.md', `
-# [nom du logiciel]
-[https://adresse-du-logiciel.fr]
- 
-## Fiche produit
-${columns.map(c=>c.label+' : [valeur]').join('\n\n')}
-
-
-## Description
-
-[description de votre service en markdown]
-
-`)
 
 fs.writeFileSync('./index.html', index)
 console.log(index)

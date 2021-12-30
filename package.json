@@ -10,8 +10,7 @@
   "nodemonConfig": {
     "ignore": [
       "index.html",
-      "node_modules",
-      "offers/exemple.md"
+      "node_modules"
     ],
     "ext": "js,pug,md"
   },
