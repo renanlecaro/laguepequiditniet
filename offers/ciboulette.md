@@ -4,8 +4,6 @@ https://ciboulette.net
 ## Fiche produit
 
 
-
-
 Paiement en ligne:  2.5 %
 
 Newsletter par email: oui
@@ -20,13 +18,13 @@ Essai gratuit: 30 jours
 
 Existe depuis: 2015
 
-Prix : 25 € / mois
+Prix : 1 à 10 € par semaine
 
 ## Description
 
-Ciboulette est un système de prise de commande pour maraîchers indépendants
-qui cherche à simplifier la vente par email hebdomadaire. La simplicité d'utilisation
-pour le maraîcher comme pour ses clients est l'avantage principal du système.  
+Ciboulette est un système de prise de commande pour maraîchers indépendants.
+La simplicité d'utilisation pour le maraîcher comme pour ses clients est 
+l'avantage principal du système.  
 
 Chaque semaine, chaque client reçois une invitation à commander par email ou sms.
 L'invitation contient un lien unique, qui l'identifie sans avoir besoin de mot
