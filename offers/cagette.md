@@ -8,13 +8,13 @@ Paiement en ligne: 3,6 %
 
 Newsletter par email: oui
 
-Newsletter par SMS:
+Newsletter par SMS: non
 
-Disponible en Belgique:
+Disponible en Belgique: oui
 
-SMS de rappel de RDV:
+SMS de rappel de RDV: non
 
-Essai gratuit: 30 jours 
+Essai gratuit: CA limité à 1000€ par an (formule Découverte) 
 
 Existe depuis: 2013
 
